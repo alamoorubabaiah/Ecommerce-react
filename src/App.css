@@ -2928,4 +2928,54 @@ html, body, #root {
     color: white;
 }
 
+/* PRODUCTS SECTION - MOBILE */
+@media screen and (max-width: 576px) {
+
+  .techshop {
+    width: 100%;
+    padding: 15px 10px;
+    overflow: hidden;
+  }
+
+  .techshop .product-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .techshop .product-card {
+    width: 100% !important;
+    min-width: 0;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .techshop .product-card img {
+    display: block;
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+  }
+
+  .techshop .product-card h3,
+  .techshop .product-card h4 {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .techshop .product-card p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .techshop .product-card button {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
 
