@@ -118,10 +118,7 @@ const SearchBar = ({ onClose }) => {
                                 onClick={() => handleProductClick(item.id)}
                             >
 
-                                <img
-                                    src={item.images?.[0]}
-                                    alt={item.title}
-                                />
+        
 
                                 <div>
                                     <h5>{item.title}</h5>
