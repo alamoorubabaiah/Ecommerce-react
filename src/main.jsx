@@ -4,6 +4,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
+import "./responsive/tablet.css";
+import "./responsive/mobile.css";
 
 import App from "./App";
 import store from "./Redux/store";
